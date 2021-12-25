@@ -130,8 +130,47 @@
 
     <!-- To create anchored text scroll ups  -->
     <a href="#earring">Click here to scroll up to the earring picture</a><br>
-    <a href="#lorem20">Click to read shit</a>
-
+    <a href="#lorem20">Click to read shit</a><br>
+<hr>
+    <!-- lets see how to create some nice form  -->
+     <div> <!-- it's a block elements which can be used to break lines  -->
+    <form action="/url-where-you-want-to-submit-form-data">
+        <div>
+            Name: <input type="text">
+        </div>
+        <br>
+        <div>
+            Age: <input type="number">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date">
+        </div>
+        <!-- Here's how to create checkbox  -->
+        <br>
+        <div>
+           I agree to T&C: <input type="checkbox" required checked>
+        </div>
+        <br>
+        <!-- Here's how we ceate radio buttons  -->
+        <label for="myGender">
+            Gender: <input type="radio" value="male" id="myGender">Male
+            <input type="radio"id="myGender">Female
+        </label>
+        <div>
+            <!-- This button will submit data to the backend  -->
+            <input type="submit" value="Submit">
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+    </div>
 
 
 
