@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Working with Form</h2>
+    <form action="backend.php">
+        <div>
+            <label for="name">
+                Name<input type="text" name="myName" id="name" placeholder="Jason">
+            </label>
+        </div>
+        <div>
+            <label for="email">
+                Email<input type="email" name="myEmail" id="email" placeholder="jasonfelice0@gmail.com">
+            </label>
+        </div>
+        <div>
+            <label for="DOB">
+                Date of Birth<input type="date" name="birthDate" id="DOB">
+            </label>
+        </div>
+        <div>
+            <label>
+                Gender:
+                <label for="male">Male</label>
+                <input type="radio" name="myGender" id="male">
+                <label for="female">Female</label>
+                <input type="radio" name="myGender" id="female">
+                <label for="other">Other</label>
+                <input type="radio" name="myGender" id="other">
+            </label>
+        </div>
+        <div>
+            <label for="what">
+                Select a service:
+                <select name="service" id="what">
+                    <option value="1">Service 1</option>
+                    <option value="2">Service 2</option>
+                    <option value="3">Service 3</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label for="comment"></label>
+            <textarea name="myText" id="comment" cols="32" rows="10" placeholder="What do you think about our service."></textarea>
+        </div>
+        <div>
+            <label for="toc">Do you acgree to our <a href="#">TOC</a>?</label>
+            <input type="checkbox"id="toc" required checked>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+        <div><input type="reset" value="Reset"></div>
+    </form>
+</body>
+</html>
