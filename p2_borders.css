@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(56, 56, 56);
+}
+
+#firstPara{
+    background-color: rgb(212, 38, 38);
+    height: 100px;
+    width: 455px;
+    border: 4px solid olive;
+    border-radius: 5px;
+}
+
+#secondPara{
+    background-color: rgb(212, 200, 38);
+    height: 100px;
+    width: 455px;
+    border-top: 5px solid hotpink;
+    border-left: 5px solid lightpink;
+    border-bottom: 5px solid pink;
+    border-right: 5px solid red;
+    border-top-right-radius: 6px;
+}
+
+#thirdPara{
+    height: 450px;
+    width: 455px;
+    border: 2px solid blue;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReA8qEgNl4cOIkf3rxD9_2tHsCkygsgQw_nQ&usqp=CAU');
+    background-repeat: no-repeat; /*repeat-x and repeat-y I think they are self explanatory */
+    /* background-position: 50px 20px; */
+    background-position: center center;
+}
+

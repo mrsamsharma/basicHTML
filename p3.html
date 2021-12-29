@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: linear-gradient(to right, rgb(30, 138, 172), rgb(185, 194, 52));
+        }
+        .container{
+            background-color: blanchedalmond;
+            border: 2px solid rgb(50, 96, 117);
+            padding: 9px 20px;
+            margin: 14px 34px;
+            /* top right bottom left || top/bottom left/right || top right&left bottom */
+            border-radius: 11px;
+            width: 600px;
+            height: 150px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is a heading</h3>
+        <p id="first">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias mollitia nihil, rerum praesentium delectus at, dignissimos quam tempora aspernatur culpa unde corporis necessitatibus vel numquam magni error inventore explicabo repellat qui laboriosam eos dolor?
+        </p>
+    </div>
+    <div class="container">
+        <h3>This is a heading</h3>
+        <p id="second">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias mollitia nihil, rerum praesentium delectus at, dignissimos quam tempora aspernatur culpa unde corporis necessitatibus vel numquam magni error inventore explicabo repellat qui laboriosam eos dolor?
+        </p>
+    </div>
+    <div class="container">
+        <h3>This is a heading</h3>
+        <p id="third">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias mollitia nihil, rerum praesentium delectus at, dignissimos quam tempora aspernatur culpa unde corporis necessitatibus vel numquam magni error inventore explicabo repellat qui laboriosam eos dolor?
+        </p>
+    </div>
+</body>
+</html>
