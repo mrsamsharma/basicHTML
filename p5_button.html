@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors and more designing</title>
+    <style>
+        .container{
+            border: 3px solid rgb(200, 197, 0);
+            background-color: powderblue;
+            padding: 34px;
+            margin: 34px;
+            width: 666px;
+            margin: 30px auto;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            
+        }
+        a:hover{
+            color: rgb(95, 65, 43);
+            background-color: rgb(224, 99, 54);
+        }
+        a:visited{
+            background-color: darkseagreen;
+        }
+        a:active{
+            background-color: darkolivegreen;
+        }
+        .btn{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: salmon;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 15px;
+            border-radius: 5px;
+        }
+        .btn:hover{
+            background-color: rgb(243, 216, 213);
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is a heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ab provident facilis sed quibusdam necessitatibus. Modi sed similique obcaecati aliquid hic id fugit perspiciatis, libero placeat voluptatum nihil. Cumque aspernatur cupiditate alias repellat maxime!</p>
+        <a href="https://healthline.com/" class="btn">Read More</a>
+        <button class="btn">About Us</button>
+    </div>
+</body>
+</html>
