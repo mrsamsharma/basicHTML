@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        header{
+            margin: auto;
+            width: 1200px;
+            /* Margin auto works to align an element to center by leaving the same amount of empty space on each side. And since header is a block element, there's no space on the side. So I made it smaller on the sides by using width. */
+        }
+        img{
+            margin: auto;
+            display: block; /* This is making inline element a block element */
+            width: 70px;
+        }
+        h3{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0px;
+            text-align: center;
+        }
+        .box{
+            border: 5px solid rgb(0, 0, 0);
+            background-color: ivory;
+            margin: 4px 0px;
+            padding: 23px;
+            display: inline-block;
+            width: 33%;
+        }
+        .container{
+            width: 1200px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header class="top">
+        <img src="https://image.shutterstock.com/image-vector/real-estate-logo-260nw-1615688014.jpg" alt="">
+        <h3>Welcome</h3>
+    </header>
+    <div class="container">
+        <div class="box">
+        <h4 class="heading">Heading</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima facere voluptatum dolore delectus porro dignissimos repellendus natus repudiandae cumque dolorem, magnam asperiores reiciendis quisquam ipsam rem cum, possimus veritatis exercitationem in? Sunt amet iure quibusdam reiciendis ab, laboriosam temporibus cupiditate, laudantium commodi praesentium a.</p>
+         </div>
+        <div class="box">
+        <h4 class="heading">Heading</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima facere voluptatum dolore delectus porro dignissimos repellendus natus repudiandae cumque dolorem, magnam asperiores reiciendis quisquam ipsam rem cum, possimus veritatis exercitationem in? Sunt amet iure quibusdam reiciendis ab, laboriosam temporibus cupiditate, laudantium commodi praesentium a.</p>
+         </div>
+        <div class="box">
+        <h4 class="heading">Heading</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima facere voluptatum dolore delectus porro dignissimos repellendus natus repudiandae cumque dolorem, magnam asperiores reiciendis quisquam ipsam rem cum, possimus veritatis exercitationem in? Sunt amet iure quibusdam reiciendis ab, laboriosam temporibus cupiditate, laudantium commodi praesentium a.</p>
+         </div>
+       
+    </div>
+</body>
+</html>

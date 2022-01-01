@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Lorem</title>
+    <style>
+        body{
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/background.jpg');
+        }
+        .left{
+            position: absolute;
+            left: 34px;
+            top: 20px;
+            display: inline-block;
+            border: 2px solid red;
+        }
+        .left img{
+            width: 100px;
+            filter: invert(100%);
+        }
+        .left div{
+            text-align: center;
+        }
+        .mid{
+            display: block;
+            width: 33%;
+            margin: 20px auto;
+            border: 4px solid rgb(17, 200, 1);
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            border: 2px solid rgb(181, 106, 243);
+        }
+        .navbar{
+            display: inline-block;
+
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 25px;
+        }
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 35px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            color: rgb(234, 246, 195);
+
+        }
+        .right a{
+            text-decoration: none;
+            margin: 0px 9px;
+            color: white;
+            padding: 3px 25px;
+            border: 1px inset white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/logo.png">
+            <div>Lorem ipsum</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a class="active"href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Feed</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <a href="#">Stellar</a>
+        </div>
+    </header>
+</body>
+</html>
