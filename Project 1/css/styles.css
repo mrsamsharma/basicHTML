@@ -1,0 +1,142 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/background.jpg');
+    font-family: 'Jura', sans-serif;
+}
+
+.left {
+    position: absolute;
+    left: 61px;
+    top: 25px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.left img {
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+
+.left div {
+    text-align: center;
+    line-height: 2em;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mid {
+    display: block;
+    width: 36%;
+    margin: 25px auto;
+    border: 2px rgb(255, 255, 255);
+    border-style: inset;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 25px;
+    display: inline-block;
+    /* border: 2px solid rgb(181, 106, 243); */
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.794);
+
+}
+
+.right div {
+    font-family: Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    top: -5px;
+}
+
+.right a {
+    text-decoration: none;
+    margin: 0px 9px;
+    color: white;
+    padding: 2px 5px;
+    border: 1px inset white;
+    border-radius: 7px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.right a:hover {
+    background-image: linear-gradient(to right, rgba(225, 0, 255, 0.37), rgba(255, 19, 78, 0.493));
+}
+
+.container {
+    border: 2px solid rgb(255, 255, 255);
+    margin: 210px 61px;
+    padding: 48px 24px;
+    width: 33%;
+    border-radius: 10px;
+}
+.container:hover{
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 190px;
+    padding: 4px;
+    border: 2px solid #040404bd;
+    margin: 15px auto;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 142px;
+    margin: 30px auto;
+    font-size: 23px;
+    background-color: black;
+    color: white;
+    font-family: 'Jura', sans-serif;
+}
+.sometext{
+    /* border: 2px solid red; */
+    color: rgba(255, 255, 255, 0.911);
+    width: 600px;
+    margin: -550px 1025px;
+}
+.sometext span{
+    text-decoration: underline;
+}
+.sometext:hover{
+    color: white;
+}
+.sometext h1{
+    text-align: center;
+    font-size: 50px;
+}
